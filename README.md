@@ -13,22 +13,22 @@ preservation during digital forensic cases.
 # Key Features: 
 ● Collects basic system information including OS version, hostname, and
 architecture.
-● Enumerates local user accounts — useful for identifying suspicious
+Enumerates local user accounts — useful for identifying suspicious
 accounts.
-● Retrieves recent Event Logs for incident timeline reconstruction.
-● Displays USB connection history, a key indicator in forensics.
-● Lists scheduled tasks, which can be abused for persistence.
-● Gathers detailed GPU information (often overlooked in profiling).
-● Scans for security-related services and status.
-● Retrieves installed drivers — potentially useful for spotting rootkits.
-● Displays active antivirus software and its current state.
-● Checks the Windows Firewall status and rules.
-● Lists installed security tools or software.
-● Extracts startup applications with emphasis on security tools.
-● Checks BitLocker encryption status for disk protection evidence.
-● Displays installed security patches (missing patches = vulnerability).
-● Shows system performance stats (CPU, RAM, Disk).
-● Provides extended system information similar to systeminfo.
+Retrieves recent Event Logs for incident timeline reconstruction.
+Displays USB connection history, a key indicator in forensics.
+Lists scheduled tasks, which can be abused for persistence.
+Gathers detailed GPU information (often overlooked in profiling).
+Scans for security-related services and status.
+Retrieves installed drivers — potentially useful for spotting rootkits.
+Displays active antivirus software and its current state.
+Checks the Windows Firewall status and rules.
+Lists installed security tools or software.
+Extracts startup applications with emphasis on security tools.
+Checks BitLocker encryption status for disk protection evidence.
+Displays installed security patches (missing patches = vulnerability).
+Shows system performance stats (CPU, RAM, Disk).
+Provides extended system information similar to systeminfo.
 
 # Usage Instructions
 python3 sysinfo.py --help
